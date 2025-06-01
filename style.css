@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    border-top-left-radius: 200px ;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    width: 400px;
+    height: 400px;
+}
+h1{
+    color:blue;
+     font-size: xx-large ;
+}
+h2{
+    color:cornflowerblue;
+    font-size: xx-large;
+}
+p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+strong{
+    color: rgb(62, 72, 20);
+}
+button{
+    background-color: blue;
+    height: 50px;
+    color: black;
+}
+#icone{
+    width: 50px;
+    height: 50  PX;
+}
+.la{
+    width: auto;
+    height: 20px;
+    background-color: antiquewhite;
+}
+@media(max-width:760px){
+    body{
+        max-width: 100%;
+        flex-direction: column;
+    }
+    section{
+        width: 100%;
+    }
+}
