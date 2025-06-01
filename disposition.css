@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(32, 50, 50);
+    }
+    header{
+        background-color: rgb(89, 121, 121);
+        display: flex;
+        justify-content:space-around;
+        margin: 8px;
+
+    }
+    nav ul {
+        max-width: 0px;
+        padding: 0px;
+        display: flex;
+        margin-right: 100%;
+    }
+    nav ul p {
+        margin: 0px;
+    }
+    nav ul p a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        display: flex;
+        margin-right: 20px;
+    }
+h1,h2{
+    text-align: center;
+    color: cornflowerblue;
+}
+#homme{
+    width: 100px;
+    display: flex;
+    margin: 8px;
+    justify-content: space-between;
+
+}
+#femme{
+    display: flex;
+    margin:8px;
+    justify-content: space-between;
+}
+#maillot{
+    display: flex;
+    margin: 8px;
+}
+.titi
+{
+    position: relative;
+    left:  350px;
+}
+
+@media(max-width:760px){
+    main{
+        flex-direction: column;
+    }
+    section{
+        width: 100%;
+    }
+}
